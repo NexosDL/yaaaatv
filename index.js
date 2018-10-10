@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-bot.login("NDk0OTAxNTMxMzQ3NTE3NDQy.Do6QwA.p9Xr79gZixzuhcui5DwIjg0s7uE")
+bot.login(process.env.TOKEN)
 var prefix = ("?")
 const ytdl = require('ytdl-core');
 const queue = new Map();
